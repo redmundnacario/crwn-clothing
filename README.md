@@ -2,7 +2,7 @@
 
 Branch: "Lesson-1-SCSS
 
-![Demo](./Demo.png)
+![Demo](./Demo1.png)
 
 ## Getting Started with Create React App
 
