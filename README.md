@@ -1,6 +1,6 @@
 # E-Commerce React Application
 
-Branch: "Lesson-1-SCSS
+Branch: "Lesson-2-Props-and-style"
 
 ![Demo](./Demo1.png)
 
