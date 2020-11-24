@@ -4,6 +4,11 @@ Branch: "Lesson-2-Props-and-style"
 
 ![Demo](./Demo1.png)
 
+## Basic Dependencies
+
+`yarn add scss`
+`yarn add react-router-dom`
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
