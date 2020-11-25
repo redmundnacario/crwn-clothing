@@ -1,14 +1,16 @@
 # E-Commerce React Application
 
-Branch: "Lesson-2-Props-and-style"
+Branch: "Lesson-3-React-Routing"
 
 ![Demo](./homepage.png)
 ![Demo](./shoppage.png)
 
 ## Basic Dependencies
 
-`yarn add sass`
-`yarn add react-router-dom`
+```bash
+yarn add scss
+yarn add react-router-dom
+```
 
 ## Getting Started with Create React App
 
