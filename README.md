@@ -2,11 +2,12 @@
 
 Branch: "Lesson-2-Props-and-style"
 
-![Demo](./Demo1.png)
+![Demo](./homepage.png)
+![Demo](./shoppage.png)
 
 ## Basic Dependencies
 
-`yarn add scss`
+`yarn add sass`
 `yarn add react-router-dom`
 
 ## Getting Started with Create React App
