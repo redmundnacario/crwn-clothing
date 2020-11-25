@@ -1,14 +1,17 @@
 # E-Commerce React Application
 
-Branch: "Lesson-3-React-Routing"
+Branch: "Lesson-4-Header"
 
-![Demo](./homepage.png)
-![Demo](./shoppage.png)
+Home page
+![Demo](./homepage1.png)
+
+Shop page
+![Demo](./shoppage1.png)
 
 ## Basic Dependencies
 
 ```bash
-yarn add scss
+yarn add sass
 yarn add react-router-dom
 ```
 
