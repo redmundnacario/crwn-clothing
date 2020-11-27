@@ -1,18 +1,30 @@
 # E-Commerce React Application
 
-Branch: "Lesson-4-Header"
+Branch: "Lesson-4-Firebase-Auth"
 
-Home page
+* Sign In Components
+* Form Input Components
+* Custom Button Components
+* Firebase Auth for Signing In and Out : Pop up window and `auth.onAuthStateChanged()`
+* `ComponentWillUnmount()` and `componentDidMount()` Methods in App.js
+* Preventing update in submit forms : `event.preventDefault();`
+
+Home Page
 ![Demo](./homepage1.png)
 
-Shop page
+Shop Page
 ![Demo](./shoppage1.png)
+
+Sign In Page
+![Demo](./signin.png)
+
 
 ## Basic Dependencies
 
 ```bash
 yarn add sass
 yarn add react-router-dom
+yarn add firebase
 ```
 
 ## Getting Started with Create React App
