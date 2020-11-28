@@ -1,14 +1,5 @@
 # E-Commerce React Application
 
-Branch: "Lesson-4-Firebase-Auth"
-
-* Sign In Components
-* Form Input Components
-* Custom Button Components
-* Firebase Auth for Signing In and Out : Pop up window and `auth.onAuthStateChanged()`
-* `ComponentWillUnmount()` and `componentDidMount()` Methods in App.js
-* Preventing update in submit forms : `event.preventDefault();`
-
 Home Page
 ![Demo](./homepage1.png)
 
@@ -16,7 +7,7 @@ Shop Page
 ![Demo](./shoppage1.png)
 
 Sign In Page
-![Demo](./signin.png)
+![Demo](./signin1.png)
 
 
 ## Basic Dependencies
@@ -26,6 +17,48 @@ yarn add sass
 yarn add react-router-dom
 yarn add firebase
 ```
+
+## Lessons
+
+Branch: "Lesson-1-SCSS"
+
+*TBA
+
+Branch: "Lesson-2-Props-and-styles"
+
+*TBA
+
+Branch: "Lesson-3-React-Routing"
+
+*TBA
+
+Branch: "Lesson-4-Header"
+
+* Header or nav bar component
+* `Link` from react-router-dom used in `Header` Component
+* `Route`, `Switch` from react-router-dom used in `App` Component
+* `BrowserRouter` from react-router-dom used in `Index.js` - contains App 
+
+
+Branch: "Lesson-5-Firebase-Auth"
+
+* Sign in and up page
+* Sign In Component
+* Form Input Component
+* Custom Button Component
+* Firebase Auth for Signing In and Out : Pop up window and `auth.onAuthStateChanged()`
+* `ComponentWillUnmount()` and `componentDidMount()` Methods in App.js
+* Preventing update in submit forms : `event.preventDefault();`
+
+Branch: "Lesson-6-Firestore"
+
+* Sign Up Component 
+* Signing Up with email and password- `auth` async method - `createUserWithEmailAndPassword()`
+* Query Reference (Document and Collection) in Firestore
+* documentSnapshot object from documentRef object methods (`exists`,`data()`)
+* documentRef object CRUD methods in Firestore (`set()`,`get()`)
+* `async` funtion, and `await`
+* Signing In using email and password : `auth` async method - `signInWithEmailAndPassword()`
 
 ## Getting Started with Create React App
 
