@@ -61,6 +61,21 @@ Branch: "Lesson-6-Firestore"
 * `async` funtion, and `await`
 * Signing In using email and password : `auth` async method - `signInWithEmailAndPassword()`
 
+Branch: "Lesson-7-Redux-intro"
+
+* install redux: `yarn add redux redux-logger react-redux`
+* Flux pattern : actions -> reducers -> store -> components
+* actions -> middleware -> reducers -> root-reducers -> store -> components
+* i.e `user.actions.js`- contains a function returning an object with type and payload properties.
+* i.e `user.reducer.js`- contains a constant variable and function with switch statement.
+* i.e `root-reducer.js`- combines all reducers. (`combineReducer` from 'redux')
+* i.e `store.js`- creates a store. (`createStore`, `applyMiddleware` from 'redux')
+* In `index.js`, all app component must be within `Provider`. (`Provider` from 'react-redux')
+* Also in `index.js`, store is a property of `Provider`. (`store` from './redux/store')
+* Connecting actions to component - `connect` from 'react-redux'
+* if a state should stay in a component, use - `mapDispatchToProps`
+* if a state is passed as props in a component, use - ` mapStatetoProps`
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
