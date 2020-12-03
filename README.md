@@ -4,7 +4,7 @@ Home Page
 ![Demo](./homepage1.png)
 
 Shop Page
-![Demo](./shoppage1.png)
+![Demo](./shoppage2.png)
 
 Sign In Page
 ![Demo](./signin1.png)
@@ -66,8 +66,8 @@ Branch: "Lesson-7-Redux-intro"
 * install redux: `yarn add redux redux-logger react-redux`
 * Flux pattern : actions -> reducers -> store -> components
 * actions -> middleware -> reducers -> root-reducers -> store -> components
-* i.e `user.actions.js`- contains a function returning an object with type and payload properties.
-* i.e `user.reducer.js`- contains a constant variable and function with switch statement.
+* i.e `user.actions.js`- contains a function returning an object with type and payload properties
+* i.e `user.reducer.js`- contains a constant variable and function with switch statement
 * i.e `root-reducer.js`- combines all reducers. (`combineReducer` from 'redux')
 * i.e `store.js`- creates a store. (`createStore`, `applyMiddleware` from 'redux')
 * In `index.js`, all app component must be within `Provider`. (`Provider` from 'react-redux')
@@ -75,6 +75,23 @@ Branch: "Lesson-7-Redux-intro"
 * Connecting actions to component - `connect` from 'react-redux'
 * if a state should stay in a component, use - `mapDispatchToProps`
 * if a state is passed as props in a component, use - ` mapStatetoProps`
+
+Branch: "Lesson-8-Redux-boolean-values"
+
+* Cart Icon Component
+* Cart Dropdown Component
+* Added cart `reducer`, `actions`, and `types` in redux
+* `hidden` state can be toggled on and off, withoud payload in actions
+* `togglCartHidden` action was dispatch in cart icon
+* `hidden` state were `mapStatetoProps` in `header` component
+* hidden state (boolean) dictates if `Cart Dropdown` component should be hidden or not 
+
+Branch: "Lesson-9-adding-cart-items"
+
+* Add new `Custom Button` ClassName for Add to Cart
+* Add new `cart.utils.js` containing a function for summarizing `cartItems` if multiple same item were added
+* Uses  array function `find()` to get mulitple items with same id (same item)
+
 
 ## Getting Started with Create React App
 
