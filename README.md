@@ -4,7 +4,7 @@ Home Page
 ![Demo](./homepage1.png)
 
 Shop Page
-![Demo](./shoppage2.png)
+![Demo](./shoppage3.png)
 
 Sign In Page
 ![Demo](./signin1.png)
@@ -80,7 +80,7 @@ Branch: "Lesson-8-Redux-boolean-values"
 
 * Cart Icon Component
 * Cart Dropdown Component
-* Added cart `reducer`, `actions`, and `types` in redux
+* Added cart `reducer`, `actions`, and `types` in `./src/redux/cart`
 * `hidden` state can be toggled on and off, withoud payload in actions
 * `togglCartHidden` action was dispatch in cart icon
 * `hidden` state were `mapStatetoProps` in `header` component
@@ -91,6 +91,15 @@ Branch: "Lesson-9-adding-cart-items"
 * Add new `Custom Button` ClassName for Add to Cart
 * Add new `cart.utils.js` containing a function for summarizing `cartItems` if multiple same item were added
 * Uses  array function `find()` to get mulitple items with same id (same item)
+
+Branch: "Lesson-10-Redux-props-to-component"
+
+* Cart Item component
+* cartItems were `mapStateToProps` to Card Dropdown
+* Destructuring of objects for ex ... (next line)
+* a state containing users and cart reducers are importe like (next line)
+* state  ----> { cart : { cartItems }}
+
 
 
 ## Getting Started with Create React App
