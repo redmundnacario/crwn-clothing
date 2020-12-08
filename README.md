@@ -17,6 +17,7 @@ yarn add sass
 yarn add react-router-dom
 yarn add firebase
 yarn add redux redux-logger react-redux
+yarn add reselect
 ```
 
 ## Lessons
@@ -100,7 +101,14 @@ Branch: "Lesson-10-Redux-props-to-component"
 * a state containing users and cart reducers are importe like (next line)
 * state  ----> { cart : { cartItems }}
 
+Branch: "Lesson-11-Selectors-in-Redux"
 
+* `yarn add reselect`
+* Memoization of number of items in cart
+* input and output selectors
+* `createSelector` - enables us to create memoized function of getting a sliced data
+* `createStructuredSelector` - enables to connect selectors as props without mentioning the `state` variable
+* map state to props can be access by `this.props.<variable-name>`
 
 ## Getting Started with Create React App
 
