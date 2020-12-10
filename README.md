@@ -9,6 +9,9 @@ Shop Page
 Sign In Page
 ![Demo](./signin1.png)
 
+Checkout Page
+![Demo](./checkoutpage.png)
+
 
 ## Basic Dependencies
 
@@ -18,6 +21,7 @@ yarn add react-router-dom
 yarn add firebase
 yarn add redux redux-logger react-redux
 yarn add reselect
+yarn add redux-persist
 ```
 
 ## Lessons
@@ -111,6 +115,7 @@ Branch: "Lesson-11-Selectors-in-Redux"
 * map state to props can be access by `this.props.<variable-name>`
 
 Branch: "Lesson-12-Cart-creation"
+**correction: Checkout-creation**
   
 * CheckOut Page and CheckOutItem Component
 * `removeItem` fx in cart.actions.js to subtract 1 quantity in a cart
@@ -120,6 +125,17 @@ Branch: "Lesson-12-Cart-creation"
 * number of items in the cart and total price were derived using selector
 * array `reduce` method used to get total price and total items in the cart.
 * array `map`, `find`, `filter` method used to add, remove and clear item in the cart.
+
+Branch: "Lesson-13-Redux-persist"
+
+* Intro to local storage and session storage
+* `yarn add redux-persist`
+* Mostly configurations: root-reducer -> store -> index.js
+* `import { persistStore } from 'redux-persist'` in `store.js`
+* `import  { persistReducer } from 'redux-persist';` - in root-reducer,.js
+* `import storage from 'redux-persist/lib/storage';` - in root-reducer,.js (local storage)
+* `import storageSession from 'redux-persist/lib/storage/session'';` (session storage)
+* `import { PersistGate} from 'redux-persist/integration/react';` in index.js
 
 
 
