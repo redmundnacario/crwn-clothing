@@ -110,6 +110,19 @@ Branch: "Lesson-11-Selectors-in-Redux"
 * `createStructuredSelector` - enables to connect selectors as props without mentioning the `state` variable
 * map state to props can be access by `this.props.<variable-name>`
 
+Branch: "Lesson-12-Cart-creation"
+  
+* CheckOut Page and CheckOutItem Component
+* `removeItem` fx in cart.actions.js to subtract 1 quantity in a cart
+* `clearItemFromCart` fx to remove item in a cart using x button
+* `toggleHidden` was dispatch using shorthand style in `CartDropdown` component
+* `withRouter` from `react-router-dom` was used to have access to `history.push()` in Checkout Button
+* number of items in the cart and total price were derived using selector
+* array `reduce` method used to get total price and total items in the cart.
+* array `map`, `find`, `filter` method used to add, remove and clear item in the cart.
+
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
