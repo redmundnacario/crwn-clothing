@@ -137,7 +137,19 @@ Branch: "Lesson-13-Redux-persist"
 * `import storageSession from 'redux-persist/lib/storage/session'';` (session storage)
 * `import { PersistGate} from 'redux-persist/integration/react';` in index.js
 
+Branch: "Lesson-14-Dynamic-routing"
+**With Data flow and memoization from lodash
 
+* shop data and directory data was placed in redux
+* shop data was converted from array of objects to an object of objects
+* `Shop Page` was improved for dynamic routing of collections
+* `Collection Page` was created to display all products in one collection.
+* `Collection Overview Component` was created.
+* `ownProps` - Second default variable of `mapStateToProps` were used...
+* ... this time the match object given by a `Route` component from `react-router-dom`
+* `yarn add lodash.memoize`
+* memoize the additional input arguments in the selector `selectCollection`...
+* ... this time the match object given by a `Route` component from `react-router-dom`
 
 ## Getting Started with Create React App
 
