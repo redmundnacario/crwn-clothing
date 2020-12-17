@@ -22,6 +22,8 @@ yarn add firebase
 yarn add redux redux-logger react-redux
 yarn add reselect
 yarn add redux-persist
+yarn add lodash.memoize
+yarn add react-stripe-checkout
 ```
 
 ## Lessons
@@ -115,6 +117,7 @@ Branch: "Lesson-11-Selectors-in-Redux"
 * map state to props can be access by `this.props.<variable-name>`
 
 Branch: "Lesson-12-Cart-creation"
+
 **correction: Checkout-creation**
   
 * CheckOut Page and CheckOutItem Component
@@ -138,7 +141,8 @@ Branch: "Lesson-13-Redux-persist"
 * `import { PersistGate} from 'redux-persist/integration/react';` in index.js
 
 Branch: "Lesson-14-Dynamic-routing"
-**With Data flow and memoization from lodash
+
+**With Data flow and memoization from lodash**
 
 * shop data and directory data was placed in redux
 * shop data was converted from array of objects to an object of objects
@@ -150,6 +154,12 @@ Branch: "Lesson-14-Dynamic-routing"
 * `yarn add lodash.memoize`
 * memoize the additional input arguments in the selector `selectCollection`...
 * ... this time the match object given by a `Route` component from `react-router-dom`
+
+Branch: "Lesson-14-Stripe-checkout-payment-component"
+
+* `yarn add react-stripe-checkout`
+* `stripe-button` component created containing stripe checkout component
+* `favicon.icon` and app name in `/public/index.html` was edited.
 
 ## Getting Started with Create React App
 
