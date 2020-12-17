@@ -170,7 +170,8 @@ Branch: "Lesson-16-Deploying-on-Heroku"
 * `https://github.com/mars/create-react-app-buildpack` - build pack... no need to npm or yarn build locally
 * `heroku create $APP_NAME --buildpack mars/create-react-app` - set app name and buildpack
 * `git push heroku master` - pushing the local master branch to your heroku app
-* `heroku open` 
+* `heroku open` - open website
+* if `process.env.NODE_ENV` is in production, logger must not included in middlewares in `/redux/store.js`
 
 ## Getting Started with Create React App
 
