@@ -155,11 +155,22 @@ Branch: "Lesson-14-Dynamic-routing"
 * memoize the additional input arguments in the selector `selectCollection`...
 * ... this time the match object given by a `Route` component from `react-router-dom`
 
-Branch: "Lesson-14-Stripe-checkout-payment-component"
+Branch: "Lesson-15-Stripe-checkout-payment-component"
 
 * `yarn add react-stripe-checkout`
 * `stripe-button` component created containing stripe checkout component
-* `favicon.icon` and app name in `/public/index.html` was edited.
+* `favicon.icon` and app name in `/public/index.html` was edited
+
+Branch: "Lesson-16-Deploying-on-Heroku"
+
+* Get heroku account - sign up.
+* `brew tap heroku/brew && brew install heroku` - install heroku cli
+* `heroku --version` - check version and if heroku cli was successfully installed
+* `heroku login` - login heroku cli
+* `https://github.com/mars/create-react-app-buildpack` - build pack... no need to npm or yarn build locally
+* `heroku create $APP_NAME --buildpack mars/create-react-app` - set app name and buildpack
+* `git push heroku master` - pushing the local master branch to your heroku app
+* `heroku open` 
 
 ## Getting Started with Create React App
 
